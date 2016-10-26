@@ -131,7 +131,7 @@ public class GUI extends Frame {
 					StandardTree standardTree = new StandardTree();
 					String content;
 
-					content = ReadFile.readFileContent(new File("/"+"1998-01-2003°æ-´øÒô.txt"));
+					content = ReadFile.readFileContent(new File("1998-01-2003°æ-´øÒô.txt"));
 
 					String[] sources = content.split("  ");
 					for (String str2 : sources) {
